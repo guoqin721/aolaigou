@@ -1,0 +1,18 @@
+/*css初始化*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin: 0;padding: 0;}
+fieldset,img,input,button{border: none;padding: 0;margin: 0;outline-style: none;}
+li,ol{list-style: none;}
+select,input,textarea{font-size: 12px;margin: 0;}
+textarea{resize: none;}
+img{display: block;}
+table{border-collapse: collapse;}
+a{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;font-size: 100%;}
+s,i,em{font-style: normal;}
+body,html{width: 1263px;}
+a:hover{color: red;}
+.clearfix:after{content: '';clear: both;height: 0;visibility: hidden;overflow: hidden;display: block;}
+a{color: #999;}
+.fl{float: left;}
+.fr{float: right;}
+

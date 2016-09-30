@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<style type="text/css">
+			div{width: 100px;height: 100px;background: red;position: absolute;top: 20px;}
+		</style>
+		<script type="text/javascript" src="js/jquery.js">
+			
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#right").click(function(){
+				  $(".block").animate({left: '+50px'}, "slow");
+				});
+				
+				$("#left").click(function(){
+				  $(".block").animate({left: '-50px'}, "slow");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<button id="left">«</button> <button id="right">»</button>
+        <div class="block"></div>
+	</body>
+</html>

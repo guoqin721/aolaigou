@@ -1,0 +1,55 @@
+#lunbo{width: 100%;height: 415px;position: relative;}
+#lunbo .prveBtn,#lunbo .nextBtn{display: block;width: 40px;height: 74px;}
+#lunbo .prveBtn{background: url(../img/lunbo/focus_btn.png);background-position:0 -74px;position: absolute;left: 249px;top:162px;z-index: 500;}
+#lunbo .nextBtn{background: url(../img/lunbo/focus_btn.png);background-position:-40px -74px;position: absolute;left: 1191px;top:162px;z-index: 500;}
+#lunbo ul li{float: left;width: 18px;height: 14px;background: #fff;margin: 4px;border-radius: 7px;}
+#lunbo ul{position: absolute;top: 382px;left: 673px;z-index: 400;}
+#lunbo img{margin: 0 auto;}
+#lunbo .luna{display: none;width: 100%;}
+#lunbo .lun_a1{background: rgb(255, 162 ,0);display: block;}
+#lunbo .lun_a2{background: rgb(126 ,143 ,15);}
+#lunbo .lun_a3{background: rgb(250 ,108 ,61);}
+#lunbo .lun_a4{background: rgb(253 ,245, 243);}
+#lunbo .lun_a5{background: rgb(248 ,211, 185);}
+#floor0 {width: 978px;background: red;float: right;margin-right: 31.5px;}
+#floor0 img{float: left;margin: 11px 0 11px 11px;}
+/*特价商品*/
+#floor1{width:1200px;padding:0 31.5px;height: 548px;overflow: hidden;}
+#floor1 img{padding-top: 19px;}
+#floor1 #floor1_timer{background:url(../img/floor1/itime.jpg) no-repeat left center ;padding-left:30px;margin-top: 6px;margin-bottom: 14px;height: 23px;line-height: 23px;font-size: 13px;}
+#floor1 #floor1_timer span{display: inline-block;height: 22px;width: 22px;background: black;color: #fff;text-align: center;margin:0 5px;border-radius: 3px;}
+#floor1 .tejia li{float:left;border: 1px solid #eaeaea;width: 237px;padding-bottom: 24px;}
+#floor1 .tejia li a{display: block;padding-top:354px;}
+#floor1 .tejia .tajia1{background: url(../img/floor1/floor0101.jpg) no-repeat;}
+#floor1 .tejia .tajia2{background: url(../img/floor1/floor0102.jpg)no-repeat;}
+#floor1 .tejia .tajia3{background: url(../img/floor1/floor0103.jpg)no-repeat;}
+#floor1 .tejia .tajia4{background: url(../img/floor1/floor0104.jpg)no-repeat;}
+#floor1 .tejia .tajia5{background: url(../img/floor1/floor0105.jpg)no-repeat;}
+#floor1 .tejia li a{display: block;font-size:14px;text-align: center;padding-bottom: 28px;line-height: 14px;line-height: 14px;}
+#floor1 .tejia li del{font-size: 11px;padding:8px 53px 0 10px}
+#floor1 .tejia li span{font-size: 19px;font-weight: 600;color: red;}
+#floor2{width: 1263px;overflow:hidden;height: 582px;}
+#floor2 #floor2_logo > img{margin:0 auto,}
+#floor2 #floor2_logo #shishang{display: block;text-align: center;height: 14px;margin-top: 8px;margin-bottom: 15px;line-height: 14px;font-size: 14px;color: #999;}
+#floor2 #floor2_tupian .floor2_box{width: 200px;overflow: hidden;float: left;height: 520px;}
+#floor2 #floor2_tupian{margin: 0 auto;width: 1200px;border: 1px solid #eaeaea;}
+#floor2 #floor2_tupian .floor2_box>a>img{width: 100%;}
+#floor2 #floor2_tupian .floor2_box>a{display: block;overflow: hidden;}
+#floor2 #floor2_tupian .floor2_box .baiye_xiao{width:200px ;height: 80px;position: relative;}
+#floor2 #floor2_tupian .floor2_box .baiye_da{ background:#fafafa;width: 400px;height: 100px;display: none;position: relative;z-index: 10;}
+#floor2 #floor2_tupian .floor2_box .baiye_da .baiye_dat1{margin-bottom: 12px;padding-top:22px;height: 16px;font-size: 16px;text-align: center;color:#555 ;}
+#floor2 #floor2_tupian .floor2_box .baiye_da .baiye_dat2{height: 21px;font-size: 21px;text-align: center;color: #ff3344;}
+#floor2 #floor2_tupian #floor2_center{width: 400px;}
+#floor2 #floor2_tupian #floor2_center>a{height: 420px;}
+#floor2 #floor2_tupian #floor2_center .baiye_da{display: block;}
+#floor2 #floor2_tupian #floor2_center .baiye_xiao{display: none;}
+.floor2_a>img{width: 1200px;margin: 30px auto;height: 115px;}
+.floor2_a{display:block;width: 1263px;}
+#floor3{margin: 0 auto;}
+#floor3 #fl3head img{width: 1200px;margin: 0 auto;}
+#floor3 #fl3head2{width:111px;margin:0 auto;display: block;height: 31px;line-height: 31px;font-size: 13px;color: #999;}
+#floor3 #f3content #f3cont_tip{height: 35px;width: 160px;margin-top: -17px;float: right;}
+#floor3 #f3content #f3cont_tip span{display:block;height: 35px;width: 80px;float: right;line-height: 27px;font-size: 11px;text-align: center;}
+#floor3 #f3content{width: 1200px;}
+#floor3 #f3content #f3cont_tip .tip2{color: #fff;background: url(../img/indbg.png);background-position: -18px -330px;}
+#floor3 #f3content #f3cont_tip .tip1{background: url(../img/indbg.png);background-position: -98px -330px;}

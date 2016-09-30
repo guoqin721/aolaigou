@@ -1,0 +1,49 @@
+/*底部*/
+#footer{width: 100%;height:100px;background: #f0f0f0;}
+#footer ul li{float: left;overflow:hidden;width: 180px;height: 60px;margin-top: 20px;margin-left: 70px;}
+#footer .fo_l1{margin-left: 31.5px;}
+#footer ul li i{width: 60px;height: 60px;float: left;}
+#footer ul li .foo_i1{background: url(../img/core.png);background-position: -86px -219px ;}
+#footer ul li .foo_i2{background: url(../img/core.png);background-position: -198px -219px ;}
+#footer ul li .foo_i3{background: url(../img/core.png);background-position: -311px -219px ;}
+#footer ul li .foo_i4{background: url(../img/core.png);background-position: -439px -219px ;}
+#footer ul li .foo_i5{background: url(../img/core.png);background-position:-583px -219px ;}
+#footer ul li dl{margin-left: 10px;float: left;}
+#footer ul li dt{margin-top: 7px;color: #d82326;height: 15px;line-height: 15px;font-size: 15px;}
+#footer ul li dd{margin-top: 10px;color: #333333;height: 13px;line-height: 13px;font-size: 13px;}
+/*footerFloor2*/
+#footerFloor2 {width: 100%;height: 256px;}
+#footerFloor2 #fofl0201{width: 924px;float:left;height: 255px;margin-left: 43px;overflow: hidden;border-bottom: 1px solid #666;}
+#footerFloor2 #fofl0201 dl{margin-top: 34px;margin-right: 97px;float: left;}
+#footerFloor2 #fofl0201 dt{height: 32px;line-height: 32px;font-size: 14px;color: #333;}
+#footerFloor2 #fofl0201 dd{height: 25px;line-height: 25px;font-size: 13px;color: #666;}
+#footerFloor2 #fofl0202{float: left;width:272px ;height: 221px;border-bottom: 1px solid #666;padding-top: 34px;padding-left: 17px;}
+#footerFloor2 #fofl0202 li{height: 76px;margin-right: 73px;float: left;}
+#footerFloor2 #fofl0202 #tubiao ul{width:286px;}
+
+#footerFloor2 #fofl0202 #tubiao li .i1{display:block;margin-top: 6px;width: 43px;height: 43px;margin-left: 6px;background: url(../img/core.png);background-position: -873px -227px;}
+#footerFloor2 #fofl0202 #tubiao li .i2{display:block;margin-top: 6px;width: 43px;height: 43px;margin-left: 6px; background: url(../img/core.png);background-position: -991px -227px;}
+#footerFloor2 #fofl0202 #tubiao li span{display:block;font-size:14px;height: 14px;line-height: 14px;margin-top: 10px;margin-bottom: 14px;display: inline-block;color: #333;}
+#footerFloor2 #fofl0202 #lianxi i{display:block;background: url(../img/core.png);background-position:-1096px -230px;width: 30px;height: 40px;float: left;margin-right: 10px;}
+#footerFloor2 #fofl0202 #lianxi{margin-top: 14px;}
+#footerFloor2 #fofl0202 #lianxi p{float: left;}
+#footerFloor2 #fofl0202 #lianxi .span1{color:red;height: 17px;line-height: 17px;font-size: 17px;font-weight: 600;display: block;}
+#footerFloor2 #fofl0202 #lianxi .span2{margin-top:9px;height: 12px;line-height: 12px;font-size: 12px;}
+#footerFloor2 #fofl0202 img{margin:28px 0 0 40px}
+
+#footer3{width: 100%;padding-top:29px;text-align: center;}
+#footer3 .ul1 {margin: 0 auto;width: 571px;}
+#footer3 .ul1 li{float:left;border-left: 1px solid #666;height: 13px;font-size: 13px;color:#666 ;padding: 0 12px;}
+#footer3 .f3div1{text-align: center;margin:19px 0 24px;height: 16px;line-height: 16px;font-size: 16px;color: #666;}
+#footer3 .f3div2{text-align: center;margin-bottom: 27px;height: 13px;line-height: 13px;font-size: 13px;color: #666;}
+#footer3 .ul2 li{float:left;height: 51px;width: 136px;margin: 0 7px;}
+#footer3 .ul2 li>a{display:block;height: 51px;width: 136px;}
+#footer3 .ul2 {width: 1200px;margin: 0 auto;}
+#footer3 .ul2 .f3l1{background: url(../img/core.png);background-position: -74px -924px;}
+#footer3 .ul2 .f3l2{background: url(../img/core.png);background-position: -234px -924px;}
+#footer3 .ul2 .f3l3{background: url(../img/core.png);background-position: -395px -924px;}
+#footer3 .ul2 .f3l4{background: url(../img/core.png);background-position: -560px -924px;}
+#footer3 .ul2 .f3l5{background: url(../img/core.png);background-position: -721px -924px;}
+#footer3 .ul2 .f3l6{background: url(../img/core.png);background-position: -866px -924px;}
+#footer3 .ul2 .f3l7{background: url(../img/core.png);background-position: -1016px -924px;}
+#footer3 .ul2 .f3l8{background: url(../img/core.png);background-position: -1016px -987px;}

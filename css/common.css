@@ -1,0 +1,55 @@
+/*header*/
+#header{height: 35px;background: #f0f0f0;;width: 1263px;}
+#header span{margin-left: 31.5px;height: 35px;line-height: 35px;font-size: 13px;}
+#header ul{margin-left: 829px;height: 35px;line-height: 35px;}
+#header ul .header_sele{display:none;background:#fff;position: absolute;top: 28px;font-size: 13px;padding:0 14px;border: 1px solid #f0f0f0;border-top: none;}
+#header ul .header_sele .dd{height: 27px;line-height: 27px;}
+
+#header ul li{height: 35px;line-height: 35px;float: left;}
+#header ul .he_li{font-size: 11px;}
+#header ul .he_li1{font-size: 13px;padding: 0 16px;}
+/*顶层图*/
+.a1{margin-left: 31.5px;display: block;}
+/*mg_top搜索框*/
+#mg_top{padding: 0 31.5px;height: 128px;}
+#mg_top > a{margin:30px 0px;}
+#mg_top #mg_search{width: 504px;height: 128px;}
+#mg_top #mg_search #sear_sear{margin: 35px 0 0 39px;width: 430px;height: 73px;}
+#mg_top #mg_search #sear_sear #ser_bg{background: url(../img/core.png);background-position: -328px -11px;width: 430px;height: 37px;position: relative;}
+#mg_top #mg_search #sear_sear #ser_bg #yinman{width: 354px;height: 29px;font-size: 13px;margin:3px 0 1px 3px;}
+#mg_top #mg_search #sear_sear #ser_bg #yin_sear{cursor: pointer;width: 63px;height: 30px;font-size: 18px;margin-top: 4px;margin-bottom:1px;background: #fff;}
+#mg_top #mg_search #sear_sear dl{height: 35px;line-height: 35px;font-size: 13px;}
+#mg_top #mg_search #sear_sear dt,#mg_top #mg_search #sear_sear dd{float: left;}
+#mg_top #mg_search #sear_sear dd{padding: 0 8px;}
+#mg_top #mg_search #sear_sear #ser_bg #sear_result{z-index:1000;border: 1px solid #999;width: 357px;background: #fff;position: absolute;top:37px;left: 0px;}
+#mg_search #sear_sear #ser_bg #sear_result ul li{height: 20px;line-height: 20px;}
+#mg_top #mg_app{margin: 28px 0 23px  9px;width: 210px;height: 77px;}
+#mg_top #mg_app li{margin: 0 12px;float: left;font-size: 12px;}
+#mg_top #mg_app li span{display: block;margin-top: 53px;width: 49px;}
+#mg_top #mg_app .li1{background: url(../img/core.png);background-position: -353px -76px;width: 41px;height: 41px;}
+#mg_top #mg_app .li2{background: url(../img/core.png);background-position: -428px -76px;width: 41px;height: 41px;}
+#mg_top #mg_app .li3{background: url(../img/core.png);background-position: -502px -76px;width: 41px;height: 41px;}
+/*导航栏*/
+#navi{width: 1200px;height: 45px;background: #c81417;padding:0 31.5px;line-height: 45px;color: #fff;font-size: 15px;}
+#navi #goods{background: #890d0f;width: 173px;text-align: center;}
+#navi #go_navi li{height: 45px;line-height: 45px;margin: 0 23px 0 22px;float: left;}
+#navi #go_navi{padding-left: 23px;width: 532px;}
+#navi #go_navi .kua_li{position: relative;}
+#navi #go_navi .kua_li a > img{position: absolute;top:-4px;right: -27px;}
+#navi #go_navi li a,#navi #go_navi li a:hover{color: #fff;}
+#navi #navi_gou{margin-left: 332px;height: 45px;line-height: 45px;font-size: 15px;}
+#navi #navi_gou a{display: block;}
+#navi #navi_gou a,#navi #navi_gou a:hover{color: #fff;}
+#navi #navi_gou a #goutu{padding:0 5px;background: url(../img/core.png);background-position: -576px -76px;width: 30px;height: 34px;}
+#footer{width: 100%;height:100px;background: #f0f0f0;}
+#footer ul li{float: left;overflow:hidden;width: 180px;height: 60px;margin-top: 20px;margin-left: 70px;}
+#footer .fo_l1{margin-left: 31.5px;}
+#footer ul li i{width: 60px;height: 60px;float: left;}
+#footer ul li .foo_i1{background: url(../img/core.png);background-position: -86px -219px ;}
+#footer ul li .foo_i2{background: url(../img/core.png);background-position: -198px -219px ;}
+#footer ul li .foo_i3{background: url(../img/core.png);background-position: -311px -219px ;}
+#footer ul li .foo_i4{background: url(../img/core.png);background-position: -439px -219px ;}
+#footer ul li .foo_i5{background: url(../img/core.png);background-position:-583px -219px ;}
+#footer ul li dl{margin-left: 10px;float: left;}
+#footer ul li dt{margin-top: 7px;color: #d82326;height: 15px;line-height: 15px;font-size: 15px;}
+#footer ul li dd{margin-top: 10px;color: #333333;height: 13px;line-height: 13px;font-size: 13px;}
