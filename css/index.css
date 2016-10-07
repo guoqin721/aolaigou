@@ -48,8 +48,26 @@
 #floor3{margin: 0 auto;}
 #floor3 #fl3head img{width: 1200px;margin: 0 auto;}
 #floor3 #fl3head2{width:111px;margin:0 auto;display: block;height: 31px;line-height: 31px;font-size: 13px;color: #999;}
-#floor3 #f3content #f3cont_tip{height: 35px;width: 160px;margin-top: -17px;float: right;}
+#floor3 #f3content #f3cont_tip{height: 35px;width: 160px;margin-top: -17px;float: right;    padding-left: 1040px;}
 #floor3 #f3content #f3cont_tip span{display:block;height: 35px;width: 80px;float: right;line-height: 27px;font-size: 11px;text-align: center;}
-#floor3 #f3content{width: 1200px;}
+#floor3 #f3content{width: 1200px;margin: 0 auto;}
 #floor3 #f3content #f3cont_tip .tip2{color: #fff;background: url(../img/indbg.png);background-position: -18px -330px;}
-#floor3 #f3content #f3cont_tip .tip1{background: url(../img/indbg.png);background-position: -98px -330px;}
+#floor3 #f3content #f3cont_tip .tip1{background: url(../img/indbg.png);background-position: -100px -330px;}
+/*#floor3 li{overflow: hidden;}????这里的border？？*/
+#floor3 #f3hotsale{height: 635px;width: 100%;}
+#floor3 #f3hotsale #datu img{height: 615px;width: 495px;}
+#floor3 #f3hotsale #hotul1 img{width: 254px;height: 306px;}
+#floor3 #f3hotsale #hotul2 img{width: 221px;height: 205px;}
+#floor3 #f3hotsale #hotul3 img{width: 221px;height: 205px;}
+#floor3 #f3hotsale  img{transition: all 0.3s ease 0s;}
+/*#floor3 #moldbaby ul{overflow: hidden;}*/
+#floor3 #moldbaby{display: none;}
+#floor3 #moldbaby ul li{float: left;}
+#floor3 #moldbaby ul li img{width: 230px;height: 240px;transition: all 0.3s ease 0s;}
+#floor3 #moldbaby ul li .moldbaby_tip{height: 30px;padding: 0px 20px;font-size:14px;line-height: 30px;}
+#floor3 #moldbaby ul li .moldbaby_tip a{color: #333;}
+#floor3 #moldbaby ul li .moldbaby_tip a:hover{color: #d91516;}
+#floor3 #moldbaby ul li .moldbaby_prise{height: 30px;padding: 0px 20px;line-height: 30px;overflow: hidden;}
+#floor3 #moldbaby ul li .moldbaby_prise em{float: left;font-size:16px ;color: #d91516; margin-right: 10px;}
+#floor3 #moldbaby ul li .moldbaby_prise del{color: #999;float: left;font-size:14px ;}
+#floor3 #f3footer{width: 1200px;margin: 30px auto;}

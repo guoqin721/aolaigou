@@ -1,0 +1,14 @@
+{
+	"id":"hotsale","code":"200","data":[
+		{"id":"0","src":"img/floor3/part02/part0201.jpg","href":"http://www.aolaigo.com/","tip":"男式牛皮钱包","prise":"￥2990.00","prise_s":"￥4590.00"},
+		{"id":"1","src":"img/floor3/part02/part0202.jpg","href":"http://www.aolaigo.com/","tip":"韩版书包","prise":"￥780.00","prise_s":"￥450.00"},
+		{"id":"2","src":"img/floor3/part02/part0203.jpg","href":"http://www.aolaigo.com/" ,"tip":"男式牛皮挎包","prise":"￥2990.00","prise_s":"￥4590.00"},
+		{"id":"3","src":"img/floor3/part02/part0204.jpg","href":"http://www.aolaigo.com/","tip":"莫斯奇诺","prise":"￥1390.00","prise_s":"￥2490.00"},
+		{"id":"4","src":"img/floor3/part02/part0205.jpg","href":"http://www.aolaigo.com/","tip":"男式牛皮皮带","prise":"￥890.00","prise_s":"￥2290.00"},
+		{"id":"5","src":"img/floor3/part02/part0206.jpg","href":"http://www.aolaigo.com/","tip":"女士牛皮钱包","prise":"￥1790.00","prise_s":"￥3290.00"},
+		{"id":"6","src":"img/floor3/part02/part0207.jpg","href":"http://www.aolaigo.com/","tip":"女士牛皮手提包","prise":"￥5599.00","prise_s":"￥9900.00"},
+		{"id":"7","src":"img/floor3/part02/part0208.jpg","href":"http://www.aolaigo.com/","tip":"女士披肩围巾","prise":"￥2990.00","prise_s":"￥3390.00"},
+		{"id":"8","src":"img/floor3/part02/part0209.jpg","href":"http://www.aolaigo.com/","tip":"女士手提包","prise":"￥1790.00","prise_s":"￥4590.00"},
+		{"id":"9","src":"img/floor3/part02/part0210.jpg","href":"http://www.aolaigo.com/","tip":"男式牛皮皮带","prise":"￥4590.00","prise_s":"￥5690.00"}
+	]
+}

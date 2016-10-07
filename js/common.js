@@ -1,14 +1,32 @@
 function head_mygou () {//显示我的奥莱购
+	/*//方法一：
 	$('#head_li5').mouseenter(function  () {
 		$('#head_li5').css({"background":"#fff"});
 		//console.log($('#head_li5').css());
 		$('.header_sele').css('display','block');
-
+		//这里用hide和show也行
 	});
-	$('.header_sele').mouseleave(function  () {
+	$('#head_li5').mouseleave(function  () {
 		$('.header_sele').css('display','none');
 		$('#head_li5').css({"background":"#f0f0f0"});	
-	});	
+	});*/
+
+	//方法二，show或者hide
+	$('#head_li5').hover(function () {
+		$('#head_li5').css({"background":"#fff"});
+		$('.header_sele').show();
+	},function () {
+		$('.header_sele').hide();
+		$('#head_li5').css({"background":"#f0f0f0"});
+	});
+	/* //方法三，slideToggle隐则显显则隐
+	$('#head_li5').hover(function () {
+		$('#head_li5').css({"background":"#fff"});
+		$('.header_sele').slideToggle(1000);
+	},function () {
+		$('.header_sele').slideToggle(1000);
+		$('#head_li5').css({"background":"#f0f0f0"});
+	});*/
 }
 //搜索框的得焦失焦事件
 function fnsearch () {

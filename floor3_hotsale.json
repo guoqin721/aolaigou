@@ -1,0 +1,13 @@
+{
+	"id":"hotsale","code":"200","data":[
+		{"id":"0","src":"img/floor3/part01/f3part0101.jpg","href":"#"},
+		{"id":"1","src":"img/floor3/part01/fapart0102.jpg","href":"#"},
+		{"id":"2","src":"img/floor3/part01/fapart0103.jpg","href":"#"},
+		{"id":"3","src":"img/floor3/part01/fapart0104.jpg","href":"#"},
+		{"id":"4","src":"img/floor3/part01/fapart0105.jpg","href":"#"},
+		{"id":"5","src":"img/floor3/part01/fapart0106.jpg","href":"#"},
+		{"id":"6","src":"img/floor3/part01/fapart0107.jpg","href":"#"},
+		{"id":"7","src":"img/floor3/part01/fapart0108.jpg","href":"#"},
+		{"id":"8","src":"img/floor3/part01/fapart0109.jpg","href":"#"}
+	]
+}

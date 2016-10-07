@@ -7,34 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
-		<script type="text/javascript" src="js/tejiadaojishi.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
 		<script src="js/jquery.js" type="text/javascript" ></script>
 		<script src="js/common.js" type="text/javascript" ></script>
 		<script type="text/javascript">
 			
-			function floor2_expand () {
-				var curIndex = 2;
-				var _list = $('#floor2_tupian .floor2_box').get();
-				$('#floor2_tupian .floor2_box').mouseenter(function  () {
-					for(var i =0;i < _list.length;i++){
-						_list[i].index = i;
-						if(this.index !==  curIndex){
-							$(_list[curIndex]).finish().animate({width:"200px"});
-							$(_list[curIndex]).children('a').animate({"height":"440px"});
-							$(_list[curIndex]).children('.baiye_da').css({display:"none"});
-							$(_list[curIndex]).children('.baiye_xiao').css({display:"block"});
-							
-							$(this).animate({width:"400px"});
-							$(this).children('a').finish().animate({"height":"420px"});
-							//console.log($(this));
-							$(this).children('.baiye_da').finish().css({display:"block"});
-							$(this).children('.baiye_xiao').finish().css({display:"none"});
-							curIndex = this.index;
-							
-						}
-					}
-				});
-			}
+			
 			$(document).ready(function  () {
 				$('#common').load('common.html',function(){
 					head_mygou ();
@@ -44,6 +22,7 @@
 				liMouseEvent();
 				teJiatime();
 				floor2_expand();
+				dataLoad();
 			});
 		</script>
 	</head>
@@ -163,6 +142,82 @@
 				<div id="f3cont_tip" class="clearfix">
 					<span class="tip1">爆款单品</span><span class="tip2">热卖推荐</span>
 				</div>
+				<div id="f3hotsale" class="clearfix f3hotsale main">
+					<div id="datu" class="fl">
+						<a href=""><img src="" alt="" /></a>
+					</div>
+					<ul id="hotul1" class="fl">
+						<li><a href=""><img src="" alt="" /></a></li>
+						<li><a href=""><img src="" alt="" /></a></li>
+					</ul>
+					<ul id="hotul2" class="fl">
+						<li><a href=""><img src="" alt="" /></a></li>
+						<li><a href=""><img src="" alt="" /></a></li>
+						<li><a href=""><img src="" alt="" /></a></li>
+					</ul>
+					<ul id="hotul3" class="fl">
+						<li><a href=""><img src="" alt="" /></a></li>
+						<li><a href=""><img src="" alt="" /></a></li>
+						<li><a href=""><img src="" alt="" /></a></li>
+					</ul>
+				</div>
+				<div id="moldbaby"class="main">
+					<ul>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+							<div class="moldbaby_tip"><a href=""></a></div>
+							<div class="moldbaby_prise"><em></em><del></del></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="f3footer">
+				<a href=""><img src="img/floor3/f3footer.jpg"/></a>
 			</div>
 		</div>
 	</body>
