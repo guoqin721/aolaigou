@@ -14,15 +14,23 @@
 			
 			
 			$(document).ready(function  () {
-				$('#common').load('common.html',function(){
+				$('#common').load('html/common.html #top',function(){
 					head_mygou ();
 					fnsearch ();
 					oSearch();
+					appShow();
 				});
 				liMouseEvent();
 				teJiatime();
 				floor2_expand();
+				//floor3
 				dataLoad();
+				//floor4
+				f4DataLoad();
+				f4footerload();
+				f5DataLoad();
+				f6DataLoad (); 
+				$('#common_bottom').load('html/common.html #bottom')
 			});
 		</script>
 	</head>
@@ -37,11 +45,11 @@
 			<a class="lun_a4 luna"  href=""><img src="img/lunbo/lun4.jpg" alt="" /></a>
 			<a class="lun_a5 luna"   href=""><img src="img/lunbo/lun5.jpg" alt="" /></a>
 			<ul class="clearfix">
-				<li style="background:#ff3344 ;">1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
+				<li style="background:#ff3344 ;"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
 		<div id="floor0" class="clearfix">
@@ -162,7 +170,7 @@
 					</ul>
 				</div>
 				<div id="moldbaby"class="main">
-					<ul>
+					<ul class="clearfix">
 						<li>
 							<a href=""><img src="" alt="" /></a>
 							<div class="moldbaby_tip"><a href=""></a></div>
@@ -219,6 +227,509 @@
 			<div id="f3footer">
 				<a href=""><img src="img/floor3/f3footer.jpg"/></a>
 			</div>
+		</div>
+		<div id="floor4">
+			<div id="fl4head">
+				<img src="img/floor4/floor04header.jpg"/>
+				<span id="fl4head2">
+					线上线下一体
+				</span>
+			</div>
+			<div id="f4content">
+				<div id="f4cont_tip" class="clearfix">
+					<span class="tip1">美妆生活</span><span class="tip1">内衣童装</span>
+					<span class="tip1">鞋靴箱包</span><span class="tip1">运动户外</span>
+					<span class="tip1">男女服饰</span><span class="tip2">热卖推荐</span>
+				</div>
+				<div id="f4box" class="clearfix">
+					<div id="conleft" class="fl">
+						<a href=""><img src="img/floor4/f4hotleft.jpg" alt="" /></a>
+						<div id="boxLeftPart2">
+							<ul class="clearfix">
+								<li class="fl">
+									<div class="parter201"></div>
+									<a href="">女装</a>
+								</li>
+								<li class="fl">
+									<div class="parter202"></div>
+									<a href="">男装</a>
+								</li>
+								<li class="fl">
+									<div class="parter203"></div>
+									<a href="">运动</a>
+								</li>
+								<li class="fl">
+									<div class="parter204"></div>
+									<a href="">鞋靴</a>
+								</li>
+								<li class="fl">
+									<div class="parter205"></div>
+									<a href="">箱包</a>
+								</li>
+								<li class="fl">
+									<div class="parter206"></div>
+									<a href="">内衣</a>
+								</li>
+								<li class="fl">
+									<div class="parter207"></div>
+									<a href="">婴童</a>
+								</li>
+								<li class="fl">
+									<div class="parter208"></div>
+									<a href="">美妆</a>
+								</li>
+							</ul>
+						</div>
+						<div id="boxLeftPart3">
+							<dl class="clearfix">
+								<dd><a href="">斯凯奇</a></dd>
+								<dd><a href="">G2000</a></dd>
+								<dd><a href="">艾格</a></dd>
+								<dd><a href="">拉夏贝尔</a></dd>
+								<dd><a href="">格蕾丝</a></dd>
+							</dl>
+						</div>
+					</div>
+					<div id="boxright"class="fl">
+						<div class="main" id="cosmetic">
+							<ul class="clearfix">
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+							</ul>	
+						</div>
+						<div class="main" id="underwear">
+							<ul class="clearfix">
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+							</ul>	
+						</div>
+						<div class="main" id="shoeBag">
+							<ul class="clearfix">
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+							</ul>	
+						</div>
+						<div class="main" id="outdoor">
+							<ul class="clearfix">
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+							</ul>	
+						</div>
+						<div class="main" id="BGClothing">
+							<ul class="clearfix">
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+								<li>
+									<div class="divimg"><a href=""><img src="" alt="" /></a></div>
+									<div class="namatip"><a href=""></a></div>
+									<div class="divprise"><em></em><del></del></div>
+								</li>
+							</ul>	
+						</div>
+						<div class="main" id="hot" >
+							<ul class="clearfix">
+								<li><a href=""><img src="" alt="" /></a></li>
+								<li class="lilun">
+									<a href="" class="luna" style="display: block;"><img src="" alt="" /></a>
+									<a href=""class="luna"><img src="" alt="" /></a>
+									<a href=""class="luna"><img src="" alt="" /></a>
+									<a href=""class="luna"><img src="" alt="" /></a>
+									<ul class="clearfix small_ul">
+										<li style="background:#666666 ;"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</li>
+								<li><a href=""><img src="" alt="" /></a></li>
+								<li><a href=""><img src="" alt="" /></a></li>
+								<li  style="border-right: 1px solid #eaeaea;"><a href=""><img src="" alt="" /></a></li>
+								<li style="border-right: 1px solid #eaeaea;"><a href=""><img src="" alt="" /></a></li>
+								<li><a href=""><img src="" alt="" /></a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>	
+			</div>
+			<div id="f4footer">			
+				<ul class="f4brand1 clearfix" style="display: block";>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+				</ul>
+				<ul class="f4brand1 clearfix" style="display: none;">
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+					<li><a href=""><img src="" alt="" /></a></li>
+				</ul>
+				<p>
+					<a href="javascript:;" id="brandPrev"></a>
+					<a href="javascript:;" id="brandNext"></a>
+				</p>			
+			</div>
+			
+			<div id="f4end">
+				<a href=""><img src="img/floor4/f4end.jpg"/></a>
+			</div>
+		</div>
+		<div id="floor5">			
+			<div id="fl5head">
+				<img src="img/floor5/floor5header.jpg"/>
+				<span id="fl5head2">
+					正品保证全球同价
+				</span>
+			</div>
+			<div id="f5con" class="clearfix">
+				<div class="iover1">
+					<div class="ir1_one clearfix">
+						<div class="ironeleft"><a href=""><img src="" alt="" /></a></div>
+						<div class="ironeleft ironeright"><a href=""><img src="" alt="" /></a></div>
+					</div>
+					<div class="ir1_two clearfix">
+						<ul class="clearfix">
+							<li>
+								<div class="irimg"><a href=""><img src="" alt="" /></a></div>
+								<div class="irval">
+									<div class="irval1"><del></del></div>
+									<div class="irval2"><span><a href=""></a></span><em></em></div>
+								</div>
+							</li>
+							<li>
+								<div class="irimg"><a href=""><img src="" alt="" /></a></div>
+								<div class="irval">
+									<div class="irval1"><del></del></div>
+									<div class="irval2"><span><a href=""></a></span><em></em></div>
+								</div>
+							</li>
+							<li>
+								<div class="irimg"><a href=""><img src="" alt="" /></a></div>
+								<div class="irval">
+									<div class="irval1"><del></del></div>
+									<div class="irval2"><span><a href=""></a></span><em></em></div>
+								</div>
+							</li>
+							<li>
+								<div class="irimg"><a href=""><img src="" alt="" /></a></div>
+								<div class="irval">
+									<div class="irval1"><del></del></div>
+									<div class="irval2"><span><a href=""></a></span><em></em></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="iover2">
+					<div id="sear">
+						<ul class="f5brand f5brand1">
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li style="border-bottom: none;"><a href=""><img src="" alt="" /></a></li>
+						</ul>
+						<ul class="f5brand f5brand2" style="display: none;">
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li><a href=""><img src="" alt="" /></a></li>
+							<li style="border-bottom: none;"><a href=""><img src="" alt="" /></a></li>
+						</ul>
+						<p>
+							<a href="javascript:;" id="searPrve"></a><a href="javascript:;" id="searNext"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor6">
+			<div id="fl6head">
+				<img src="img/floor6/f6header.jpg"/>
+				<span id="fl6head2">
+					专门做特卖的频道
+				</span>
+			</div>
+			<ul id="f6con">
+				<li>
+					<a href=""><img src="img/floor6/f601.jpg" alt="" /></a>
+					<div class="f6time">
+						<i></i>
+						<div class="f6titex">仅剩
+							<span class="_day">1</span>天
+							<span class="_hour">4</span>时
+							<span class="_minu">2</span>分
+							<span class="_seco">16</span>秒
+						</div>
+					</div>
+					<div class="shopbtn"><a href="">马上抢购</a></div>
+				</li>
+				<li>
+					<a href=""><img src="" alt="" /></a>
+					<div class="f6time">
+						<i></i>
+						<div class="f6titex">仅剩
+							<span class="_day">1</span>
+							<span class="_hour">4</span>
+							<span class="_minu">2</span>
+							<span class="_seco">16</span>
+						</div>
+					</div>
+					<div class="shopbtn"><a href="">马上抢购</a></div>
+				</li>
+				<li>
+					<a href=""><img src="" alt="" /></a>
+					<div class="f6time">
+						<i></i>
+						<div class="f6titex">仅剩
+							<span class="_day">1</span>
+							<span class="_hour">4</span>
+							<span class="_minu">2</span>
+							<span class="_seco">16</span>
+						</div>
+					</div>
+					<div class="shopbtn"><a href="">马上抢购</a></div>
+				</li>
+				<li>
+					<a href=""><img src="" alt="" /></a>
+					<div class="f6time">
+						<i></i>
+						<div class="f6titex">仅剩
+							<span class="_day">1</span>
+							<span class="_hour">4</span>
+							<span class="_minu">2</span>
+							<span class="_seco">16</span>
+						</div>
+					</div>
+					<div class="shopbtn"><a href="">马上抢购</a></div>
+				</li>
+				<li>
+					<a href=""><img src="" alt="" /></a>
+					<div class="f6time">
+						<i></i>
+						<div class="f6titex">仅剩
+							<span class="_day">1</span>
+							<span class="_hour">4</span>
+							<span class="_minu">2</span>
+							<span class="_seco">16</span>
+						</div>
+					</div>
+					<div class="shopbtn"><a href="">马上抢购</a></div>
+				</li>
+				<li>
+					<a href=""><img src="" alt="" /></a>
+					<div class="f6time">
+						<i></i>
+						<div class="f6titex">仅剩
+							<span class="_day">1</span>
+							<span class="_hour">4</span>
+							<span class="_minu">2</span>
+							<span class="_seco">16</span>
+						</div>
+					</div>
+					<div class="shopbtn"><a href="">马上抢购</a></div>
+				</li>	
+			</ul>
+		</div>
+		<div id="common_bottom">
+			
 		</div>
 	</body>
 </html>

@@ -1,3 +1,12 @@
+function appShow () {
+	$('.firul .li1').mouseenter(function  () {
+		$('#app_show').css('display','block');
+	});
+	$('#app_show').mouseleave(function  () {
+		$('#app_show').css('display','none');
+	});
+	
+}
 function head_mygou () {//显示我的奥莱购
 	/*//方法一：
 	$('#head_li5').mouseenter(function  () {

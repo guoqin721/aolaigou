@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/scarf.css"/>
+		<script src="js/jquery.js" type="text/javascript" ></script>
+		<script src="js/common.js" type="text/javascript" ></script>
+		<script type="text/javascript">
+			$(document).ready(function  () {
+				$('#comtop').load('html/common.html #top',function  () {
+					head_mygou ();
+					fnsearch ();
+					oSearch();
+					appShow();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="comtop"></div>
+		<div id="sca_goods">
+			<div id="breadcrumb">
+				<dl class="clearfix">
+					<dt>
+						<span id="wu"></span>
+						<a href="">奥莱商城</a>
+					</dt>
+					<dd class="scgt">&gt;</dd>
+					<dd class="sca"><a href="">配饰</a></dd>
+					<dd class="scgt">&gt;</dd>
+					<dd class="sca"><a href="">配饰</a></dd>
+					<dd class="scgt">&gt;</dd>
+					<dd class="sca"><a href="">配饰</a></dd>
+					<dd class="scgt">&gt;</dd>
+					<dd class="sca"><a href="">配饰</a></dd>
+					<dd class="scgt">&gt;</dd>
+					<dd class="sca"><a href="">配饰</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div id="comwrap">
+			<div id="scarf_cont">
+				<div class="pa_data_lt"></div>
+				<div class="pa_data_me"></div>
+				<div class="pa_data_rg"></div>
+			</div>
+		</div>
+	</body>
+</html>

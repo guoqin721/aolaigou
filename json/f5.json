@@ -1,0 +1,16 @@
+{
+	"id":"f5","code":"200","data":[
+		{"id":"0","src":"img/floor5/f501.jpg","href":"#"},
+		{"id":"1","src":"img/floor5/f502.jpg","href":"#"},
+		{"id":"2","src":"img/floor5/f503.jpg","href":"http://www.aolaigo.com/","tip":"海鲜味紫菜","prise":"￥7.70","prise_s":"￥17.64"},
+		{"id":"3","src":"img/floor5/f504.jpg","href":"http://www.aolaigo.com/","tip":"婴儿纸尿布M64","prise":"￥7.70","prise_s":"￥17.64"},
+		{"id":"4","src":"img/floor5/f505.jpg","href":"http://www.aolaigo.com/","tip":"河智苑果冻气垫BB","prise":"￥138.00","prise_s":"￥188.00"},
+		{"id":"5","src":"img/floor5/f506.jpg","href":"http://www.aolaigo.com/","tip":"儿童天然维生素D","prise":"￥90.00","prise_s":"￥130.00"},
+		{"id":"6","src":"img/floor5/f5brand07.jpg","href":"#"},
+		{"id":"7","src":"img/floor5/f5brand08.jpg","href":"#"},
+		{"id":"8","src":"img/floor5/f5brand09.jpg","href":"#"},
+		{"id":"9","src":"img/floor5/f5brand10.jpg","href":"#"},
+		{"id":"10","src":"img/floor5/f5brand11.jpg","href":"#"},
+		{"id":"11","src":"img/floor5/f5brand12.jpg","href":"#"}
+	]
+}

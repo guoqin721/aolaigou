@@ -1,0 +1,65 @@
+{
+	"Data":[{"id":"5","name":"hot","data":[
+			{"id":"0","src":"img/floor4/Hot/f4hot01.jpg","href":"#"},
+			{"id":"1","src":"img/floor4/Hot/f4hot_shufflingFigure/f4shufflingFigure01.jpg","href":"#"},
+			{"id":"2","src":"img/floor4/Hot/f4hot_shufflingFigure/f4shufflingFigure02.jpg","href":"#"},
+			{"id":"3","src":"img/floor4/Hot/f4hot_shufflingFigure/f4shufflingFigure03.jpg","href":"#"},
+			{"id":"4","src":"img/floor4/Hot/f4hot_shufflingFigure/f4shufflingFigure04.jpg","href":"#"},
+			{"id":"5","src":"img/floor4/Hot/f4hot02.jpg","href":"#"},
+			{"id":"6","src":"img/floor4/Hot/f4hot03.jpg","href":"#"},
+			{"id":"7","src":"img/floor4/Hot/f4hot04.jpg","href":"#"},
+			{"id":"8","src":"img/floor4/Hot/f4hot05.jpg","href":"#"},
+			{"id":"9","src":"img/floor4/Hot/f4hot06.jpg","href":"#"}
+		]},
+		{"id":"4","name":"clothing","data":[
+			{"id":"0","src":"img/floor4/BGClothing/BGClothing01.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"1","src":"img/floor4/BGClothing/BGClothing02.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥780.00","prise_s":"￥450.00"},
+			{"id":"2","src":"img/floor4/BGClothing/BGClothing03.JPG","href":"http://www.aolaigo.com/" ,"tip":"男士时尚休闲长袖T恤13133001","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"3","src":"img/floor4/BGClothing/BGClothing04.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖T恤J43003","prise":"￥1390.00","prise_s":"￥2490.00"},
+			{"id":"4","src":"img/floor4/BGClothing/BGClothing05.JPG","href":"http://www.aolaigo.com/","tip":"新款纯色圆领休闲长袖上衣","prise":"￥890.00","prise_s":"￥2290.00"},
+			{"id":"5","src":"img/floor4/BGClothing/BGClothing06.JPG","href":"http://www.aolaigo.com/","tip":"新款圆领长袖印花两件套","prise":"￥1790.00","prise_s":"￥3290.00"},
+			{"id":"6","src":"img/floor4/BGClothing/BGClothing07.JPG","href":"http://www.aolaigo.com/","tip":"新品时尚V翻领印花休闲衬衫","prise":"￥5599.00","prise_s":"￥9900.00"},
+			{"id":"7","src":"img/floor4/BGClothing/BGClothing08.JPG","href":"http://www.aolaigo.com/","tip":"拉夏贝尔拉贝缇新款提花宽松套头","prise":"￥2990.00","prise_s":"￥3390.00"}
+		]},
+		{"id":"3","name":"outdoor","data":[
+			{"id":"0","src":"img/floor4/sports/sports01.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"1","src":"img/floor4/sports/sports02.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥780.00","prise_s":"￥450.00"},
+			{"id":"2","src":"img/floor4/sports/sports03.JPG","href":"http://www.aolaigo.com/" ,"tip":"男士时尚休闲长袖T恤13133001","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"3","src":"img/floor4/sports/sports04.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖T恤J43003","prise":"￥1390.00","prise_s":"￥2490.00"},
+			{"id":"4","src":"img/floor4/sports/sports05.JPG","href":"http://www.aolaigo.com/","tip":"新款纯色圆领休闲长袖上衣","prise":"￥890.00","prise_s":"￥2290.00"},
+			{"id":"5","src":"img/floor4/sports/sports06.JPG","href":"http://www.aolaigo.com/","tip":"新款圆领长袖印花两件套","prise":"￥1790.00","prise_s":"￥3290.00"},
+			{"id":"6","src":"img/floor4/sports/sports07.JPG","href":"http://www.aolaigo.com/","tip":"新品时尚V翻领印花休闲衬衫","prise":"￥5599.00","prise_s":"￥9900.00"},
+			{"id":"7","src":"img/floor4/sports/sports08.JPG","href":"http://www.aolaigo.com/","tip":"拉夏贝尔拉贝缇新款提花宽松套头","prise":"￥2990.00","prise_s":"￥3390.00"}
+		]},
+		{"id":"2","name":"shoeBag","data":[
+			{"id":"0","src":"img/floor4/shoeBag/shoeBag01.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"1","src":"img/floor4/shoeBag/shoeBag02.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥780.00","prise_s":"￥450.00"},
+			{"id":"2","src":"img/floor4/shoeBag/shoeBag03.JPG","href":"http://www.aolaigo.com/" ,"tip":"男士时尚休闲长袖T恤13133001","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"3","src":"img/floor4/shoeBag/shoeBag04.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖T恤J43003","prise":"￥1390.00","prise_s":"￥2490.00"},
+			{"id":"4","src":"img/floor4/shoeBag/shoeBag05.JPG","href":"http://www.aolaigo.com/","tip":"新款纯色圆领休闲长袖上衣","prise":"￥890.00","prise_s":"￥2290.00"},
+			{"id":"5","src":"img/floor4/shoeBag/shoeBag06.JPG","href":"http://www.aolaigo.com/","tip":"新款圆领长袖印花两件套","prise":"￥1790.00","prise_s":"￥3290.00"},
+			{"id":"6","src":"img/floor4/shoeBag/shoeBag07.JPG","href":"http://www.aolaigo.com/","tip":"新品时尚V翻领印花休闲衬衫","prise":"￥5599.00","prise_s":"￥9900.00"},
+			{"id":"7","src":"img/floor4/shoeBag/shoeBag08.JPG","href":"http://www.aolaigo.com/","tip":"拉夏贝尔拉贝缇新款提花宽松套头","prise":"￥2990.00","prise_s":"￥3390.00"}
+		]},
+		{"id":"1","name":"underwear","data":[
+			{"id":"0","src":"img/floor4/underwear/underweat01.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"1","src":"img/floor4/underwear/underweat02.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥780.00","prise_s":"￥450.00"},
+			{"id":"2","src":"img/floor4/underwear/underweat03.JPG","href":"http://www.aolaigo.com/" ,"tip":"男士时尚休闲长袖T恤13133001","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"3","src":"img/floor4/underwear/underweat04.JPG","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖T恤J43003","prise":"￥1390.00","prise_s":"￥2490.00"},
+			{"id":"4","src":"img/floor4/underwear/underweat05.JPG","href":"http://www.aolaigo.com/","tip":"新款纯色圆领休闲长袖上衣","prise":"￥890.00","prise_s":"￥2290.00"},
+			{"id":"5","src":"img/floor4/underwear/underweat06.JPG","href":"http://www.aolaigo.com/","tip":"新款圆领长袖印花两件套","prise":"￥1790.00","prise_s":"￥3290.00"},
+			{"id":"6","src":"img/floor4/underwear/underweat07.JPG","href":"http://www.aolaigo.com/","tip":"新品时尚V翻领印花休闲衬衫","prise":"￥5599.00","prise_s":"￥9900.00"},
+			{"id":"7","src":"img/floor4/underwear/underweat08.JPG","href":"http://www.aolaigo.com/","tip":"拉夏贝尔拉贝缇新款提花宽松套头","prise":"￥2990.00","prise_s":"￥3390.00"}
+		]},
+		{"id":"0","name":"cosmetic","data":[
+			{"id":"0","src":"img/floor4/cosmetic/cosmetic01.jpg","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"1","src":"img/floor4/cosmetic/cosmetic02.jpg","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖衬衫","prise":"￥780.00","prise_s":"￥450.00"},
+			{"id":"2","src":"img/floor4/cosmetic/cosmetic03.jpg","href":"http://www.aolaigo.com/" ,"tip":"男士时尚休闲长袖T恤13133001","prise":"￥2990.00","prise_s":"￥4590.00"},
+			{"id":"3","src":"img/floor4/cosmetic/cosmetic04.jpg","href":"http://www.aolaigo.com/","tip":"男士时尚休闲长袖T恤J43003","prise":"￥1390.00","prise_s":"￥2490.00"},
+			{"id":"4","src":"img/floor4/cosmetic/cosmetic05.jpg","href":"http://www.aolaigo.com/","tip":"新款纯色圆领休闲长袖上衣","prise":"￥890.00","prise_s":"￥2290.00"},
+			{"id":"5","src":"img/floor4/cosmetic/cosmetic06.jpg","href":"http://www.aolaigo.com/","tip":"新款圆领长袖印花两件套","prise":"￥1790.00","prise_s":"￥3290.00"},
+			{"id":"6","src":"img/floor4/cosmetic/cosmetic07.jpg","href":"http://www.aolaigo.com/","tip":"新品时尚V翻领印花休闲衬衫","prise":"￥5599.00","prise_s":"￥9900.00"},
+			{"id":"7","src":"img/floor4/cosmetic/cosmetic08.jpg","href":"http://www.aolaigo.com/","tip":"拉夏贝尔拉贝缇新款提花宽松套头","prise":"￥2990.00","prise_s":"￥3390.00"}
+		]}
+	]
+}

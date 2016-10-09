@@ -1,0 +1,15 @@
+#sca_goods{width: 1200px;margin: 0 auto;overflow: hidden;font-size: 14px;margin-top: 10px;}
+#sca_goods #breadcrumb{height: 45px;line-height: 45px;overflow: hidden;float: left;}
+#sca_goods #breadcrumb dt{float: left;position: relative;padding-left: 30px;}
+#sca_goods #breadcrumb dt span{background:url(../img/core.png);width: 22px;height: 22px;display: block;background-position: -184px -618px;position: absolute;top: 12px;left: 0px;}
+#sca_goods #breadcrumb dt a:hover{color: #ff3344;}
+#sca_goods #breadcrumb dt a{color: #333;}
+#sca_goods #breadcrumb dd{float: left;margin-left: 5px;color: #666;}
+#comwrap{width: 1200px; margin: 0 auto;overflow: hidden;font: 12px/1.5 arial,simsun;}
+#comwrap #scarf_cont{width: 1198px;border: 1px solid #e6e6e6;padding: 20px 0px;overflow: hidden;}
+
+#scarf_cont .pa_data_lt{float: left;width: 480px;position: relative;z-index: 10;background: red;height: 50px;}
+
+#scarf_cont .pa_data_me{    float: left;width: 500px;margin-left: 10px;background: green;height: 50px;}
+
+#scarf_cont .pa_data_rg{float: right;width: 195px;margin-right: 8px;overflow: hidden;background: red;height: 50px;}
