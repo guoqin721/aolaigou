@@ -1,3 +1,19 @@
+function  cookieCheak() {
+	console.log(getCookie("username"));
+	console.log(getCookie("password"));
+	if(getCookie("username")&&getCookie("password")){
+		$('.he_cook1').html('Hi:'+getCookie("username")).css({"color":"red"});
+		$('.he_cook2').html('退出').css({"color":"red"});
+		$('.cookieUl').css({"margin-left":"780px"});
+	}
+	$('.he_cook2').click(function  () {
+		if($('.he_cook2').html()=='退出'){
+			$('.he_cook1').html('登录').css({"color":"#999"});
+			$('.he_cook2').html('注册').css({"color":"#999"});
+			$('.cookieUl').css({"margin-left":"829px"});
+		}
+	});	
+}
 function appShow () {
 	$('.firul .li1').mouseenter(function  () {
 		$('#app_show').css('display','block');

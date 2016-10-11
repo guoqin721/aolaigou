@@ -8,6 +8,7 @@
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
 		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
 		<script src="js/jquery.js" type="text/javascript" ></script>
 		<script src="js/common.js" type="text/javascript" ></script>
 		<script type="text/javascript">
@@ -15,6 +16,7 @@
 			
 			$(document).ready(function  () {
 				$('#common').load('html/common.html #top',function(){
+					cookieCheak()
 					head_mygou ();
 					fnsearch ();
 					oSearch();

@@ -21,6 +21,9 @@
 #i_mgtop #locon #loconfi .conright .logpart1 span{margin-right: 15px;float: right;}
 #i_mgtop #locon #loconfi .conright .logpart1 span a{color: #ff7800;}
 #i_mgtop #locon #loconfi .conright .logpart2{width: 255px;margin: 0 auto;overflow: hidden;padding-top: 30px;}
+#i_mgtop #locon #loconfi .conright .logpart2 .p2div3{height: 37px;display: none;}
+#i_mgtop #locon #loconfi .conright .logpart2 .p2tips3{display: none;}
+#i_mgtop #locon #loconfi .conright .logpart2 .p2div3 img{margin-top: 5px;}
 #i_mgtop #locon #loconfi .conright .logpart2 .indiv{margin-top: 1px;}
 
 #i_mgtop #locon #loconfi .conright .logpart2 .p2tip{color:#ff3344;width: 250px;height: 30px;line-height: 30px;font-size: 14px;}
