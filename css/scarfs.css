@@ -1,0 +1,736 @@
+#sca_goods{width: 1200px;margin: 0 auto;overflow: hidden;font-size: 14px;margin-top: 10px;}
+body{font: 12px/1.5 arial,simsun;color: #333;}
+/*热门推荐*/
+#divTopHot {
+    margin-top: 20px;
+}
+#divTopHot .s-hotv3 {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+#divTopHot .s-hotv3 .hotv3-lf {
+    float: left;
+    width: 40px;
+    height: 150px;
+    background: #fafafa;
+    border-right: 1px solid #e6e6e6;
+}
+#divTopHot .s-hotv3 .hotv3-lf ul li {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+#divTopHot .s-hotv3 .hotv3-rt ul li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#divTopHot .s-hotv3 .hotv3-rt ul li .hotv3-rtlia {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #eaeaea;
+    float: left;
+}
+#divTopHot .s-hotv3 .hotv3-rt ul li .hotv3-rtlib {
+    width: 130px;
+    float: left;
+    height: 130px;
+    margin-left: 10px;
+}
+#divTopHot .s-hotv3 .hotv3-rt ul li .hotv3-rtlib .hotv3-rtlib-tit {
+    height: 52px;
+    overflow: hidden;
+}
+#divTopHot .s-hotv3 .hotv3-rt ul li .hotv3-rtlib .hotv3-rtlib-val {
+    height: 30px;
+    line-height: 30px;
+    color: #ff3243;
+}
+#divTopHot .s-hotv3 .hotv3-rt ul li .hotv3-rtlib .hotv3-rtlib-btn a {
+    width: 80px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    background: #e6e6e6;
+    text-align: center;
+    color: #656565;
+    margin-top: 10px;
+}
+/*列表content*/
+.s {
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.s .sv3 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.s .sv3 .s-lei {
+    position: relative;
+    /* overflow: hidden; */
+    margin-bottom: 10px;
+    /* border: 1px solid #f00; */
+}
+.s .sv3 .s-lei .s-lcon {
+    /* overflow: hidden; */
+    border: 1px solid #e5e5e5;
+    position: relative;
+    border-bottom: none;
+}
+.s-lei .s-lcon .s-related {
+    height: 40px;
+    background: #fafafa;
+    line-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+.s-related .shv3-t {
+    float: left;
+    position: relative;
+    padding-left: 25px;
+}
+.s-related .shv3-t i {
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background-position: -184px -619px;
+    background-image: url(../img/core.png);
+}
+.shv3-t span {
+    margin: 0px 5px;
+}
+.shv3-t span a{color: color: #fb5053;}
+.s-related .shv3-l{
+	float: left;
+}
+.s-related .shv3-l .shv3-menu {
+    position: relative;
+    float: left;
+}
+.shv3-menu .shv3-menu-a {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #e6e6e6;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 22px;
+    position: relative;
+    margin-left: 10px;
+    background: #fff;
+    z-index: 15;
+}
+.shv3-menu .shv3-menu-a a {
+    color: #656565;
+}
+.shv3-menu .shv3-menu-a i {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-position: -143px -625px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-image: url(../img/core.png);
+}
+.shv3-menu .shv3-is {
+    float: left;
+    line-height: 40px;
+    margin-left: 15px;
+}
+.shv3-menu .shv3-lcon {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    width: 500px;
+    border: 1px solid #c81417;
+    background: #fff;
+    z-index: 10;
+    padding: 10px;
+    display: none;
+}
+.shv3-menu .shv3-lcon ul li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 2px;
+    margin-right: 15px;
+}
+.s-lei .s-lcon .s-lei-p {
+    overflow: hidden;
+    position: relative;
+    height: 35px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.g-tit {
+    float: left;
+    width: 80px;
+    text-align: right;
+    line-height: 35px;
+    color: #333;
+    background: #fafafa;
+}
+
+/*隐藏的所有品牌*/
+.s-lei-p .g-tab {
+    display: none;
+}
+/*针对所有dl*/
+.s-lei-p dl {
+    float: left;
+    width: 1000px;
+    display: block;
+    overflow: hidden;
+}
+.s-lei-p dl dd {
+    float: left;
+    margin-left: 20px;
+    margin-top: 1px;
+    line-height: 25px;
+    white-space: nowrap;
+    color: #666;
+}
+.g-tab dl dd.g-tab01 {
+    background: #4598D2;
+    color: #fff;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.g-tab dl dd.g-tab02 {
+    color: #164a96;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.s-p01 a {
+    color: #666;
+}
+.s-lei-p a {
+    line-height: 35px;
+    display: block;
+}
+.s-lei-p .s-zjpp {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+.s-lei-p .s-zjpp span {
+    float: left;
+    margin-right: 10px;
+    color: #164a96;
+    line-height: 32px;
+    cursor: pointer;
+}
+.s-lei-p  span.s-zjpp-01 {
+    padding: 0px 8px;
+    height: 20px;
+    background: #f8f7f5;
+    border: 1px solid #e5e5e5;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    color: #164a96;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.s-jg .s-jgx01 {
+    width: 40px;
+    height: 17px;
+    padding: 2px 1px;
+    border: 1px solid #ccc;
+    line-height: 17px;
+    font-family: verdana;
+    color: #999;
+    margin-top: 5px;
+}
+.s-jg .s-jgtj {
+    border: 1px solid #ddd;
+    text-align: center;
+    background: #ccc;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    width: 40px;
+    margin-top: 3px;
+}
+
+/*隐藏的筛选条件*/
+.s-mtt {
+    width: 1200px;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+.s-mtt span {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    width: 333px;
+    top: -2px;
+    padding-bottom: 5px;
+    color: #999;
+    height: 25px;
+    background: url(../img/scarfs/search/scarfs_sea.jpg) no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.s-mtt span em {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*图片列表*/
+.left {
+    float: left;
+    width: 190px;
+}
+.left  .sea-left {
+    float: left;
+    width: 190px;
+    overflow: hidden;
+}
+.left  .sea-left .sea-left-1 {
+    float: left;
+    width: 188px;
+    padding-bottom: 20px;
+    border: 1px solid #e6e6e6;
+}
+.sea-left-t1 {
+    height: 40px;
+    background: #fafafa;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    color: #c71417;
+    font-weight: bold;
+}
+.sea-left-t1 em {
+    color: #666;
+    margin-left: 4px;
+}
+.sea-left-t1 span.pt-hot {
+    width: 37px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-position: -960px -845px;
+}
+.sea-left-con ul li a img {
+    width: 140px;
+    height: 140px;
+}
+.sea-left-con ul li.left-conli-val {
+    color: #ff3344;
+    font-weight: bold;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.search-core {
+    background: url(../img/core.png) no-repeat;
+}
+.sea-left-con ul {
+    width: 145px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.sea-left-t1 span.pt-news {
+    width: 37px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-position: -1025px -610px;
+}
+.right {
+    width: 1000px;
+    overflow: hidden;
+}
+.fore1 {
+    height: 40px;
+    background: #f9f9f7;
+    border: 1px solid #e6e6e6;
+}
+.fore1 dl {
+    margin-left: 0px;
+    float: left;
+    overflow: hidden;
+}
+.fore1 dl dt {
+    float: left;
+    margin: 9px 10px 0px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.fore1 dl dd {
+    overflow: hidden;
+    float: left;
+    line-height: 25px;
+    margin-top: 6px;
+}
+.fore1 dl dd.fore1-moren a {
+    width: 55px;
+    height: 25px;
+    display: block;
+    border: 1px solid #ddd;
+    color: #666;
+    background: #fff;
+    text-align: center;
+}
+.fore1 dl dd.fore1-up a {
+    width: 80px;
+    height: 25px;
+    display: block;
+    border: 1px solid #fb5053;
+    color: #fff;
+    background: #dc3645;
+    position: relative;
+    text-align: center;
+}
+.s-goods-on a {
+    float: left;
+    padding-left: 18px;
+    line-height: 14px;
+    height: 14px;
+    background: url(../img/sear-lei.png) no-repeat  -70px -13px ;
+    color: #1e55ab;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.s-goods a {
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    color: #1e55ab;
+    padding-left: 18px;
+    background: url(../img/sear-lei.png) no-repeat -70px 1px ;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+/*搜索栏的右边*/
+.fore1 .s-page11 {
+    float: right;
+    margin-right: 10px;
+}
+.s-page11 ul li {
+    float: left;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+.s-page11 ul li em {
+    color: #fb5053;
+    font-weight: bold;
+}
+.s-page11 ul li.s-page11-a {
+    display: block;
+    width: 70px;
+    height: 25px;
+    background: #fff;
+    line-height: 25px;
+    color: #cdcdcd;
+    position: relative;
+    text-align: center;
+}
+.s-page11 ul li.s-page11-a i {
+    display: block;
+    width: 5px;
+    height: 9px;
+    background: url(../img/sear-lei.png) no-repeat;
+    background-position: 0px 0px;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+}
+.s-page11 ul li.s-page11-b {
+    display: block;
+    width: 70px;
+    height: 25px;
+    background: #fff;
+    line-height: 25px;
+    color: #cdcdcd;
+    position: relative;
+    text-align: center;
+}
+.s-page11 ul li.s-page11-b i {
+    display: block;
+    width: 5px;
+    height: 9px;
+    background: url(../img/sear-lei.png) no-repeat;
+    background-position: -7px 0px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+/*商品展示*/
+.pro ul li {
+    float: left;
+    width: 240px;
+    height: 390px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    margin-left: 2px;
+    margin-top: 20px;
+    border-bottom: 1px dashed #ddd;
+    position: relative;
+}
+.vsport4 {
+	background: url(../img/sh-icon.png) no-repeat -258px -2px;
+    /*background-position: -258px -2px;*/
+}
+.sh-sport {
+    position: absolute;
+    top: 2px;
+    right: 13px;
+    width: 62px;
+    height: 62px;
+}
+.sh-icon {
+    /*background: url(../img/sh-icon.png) no-repeat;*/
+}
+.p1 {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.p2 {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.src-div-thumbnail {
+    height: 37px;
+    float: left;
+    width: 180px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.p2 dl {
+    overflow: hidden;
+    height: 37px;
+}
+.src-dl-thumbnail {
+    float: left;
+    position: absolute;
+    overflow: hidden;
+    /* width: 500px; */
+}
+/*	小图被选中时添加这个*/
+.b-select {
+    border: 1px solid #f00;
+    cursor: pointer;
+}
+.p2 dl dd {
+    border: 1px solid #ddd;
+    float: left;
+    margin-left: 8px;
+}
+dl dd.b-select img {
+    border: 1px solid #f00;
+    margin: -1px;
+}
+.p3 {
+    overflow: hidden;
+    text-align: left;
+    padding: 0px 8px;
+    margin-top: 10px;
+    height: 50px;
+}
+.p3 a {
+    color: #666;
+    line-height: 25px;
+}
+span.pt-zy {
+    width: 58px;
+    height: 20px;
+    display: block;
+    background-position: -324px -828px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.ser-bg {
+    background: url(../img/scarfs/scarf_cont/men-bg.png) no-repeat;
+}
+.p4 {
+    padding: 0px 4px;
+    margin-top: 25px;
+    overflow: hidden;
+    height: 25px;
+}
+.valc-n {
+    overflow: hidden;
+    float: left;
+}
+.p4 span a {
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    background: #FFF;
+    color: #999;
+    float: right;
+    border-radius: 3px;
+}
+span.p4-jg02 {
+    color: #e43b3b;
+    font-size: 16px;
+    float: left;
+    background: url(../img/scarfs/scarf_cont/s-ico.png) no-repeat;
+    height: 23px;
+    display: block;
+    padding-left: 28px;
+    margin-left: 5px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.p4 del {
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+    float: left;
+    line-height: 23px;
+}
+.s-page11 {
+    float: right;
+    margin-right: 10px;
+}
+.s-page11 ul li.s-page11-a {
+    display: block;
+    width: 70px;
+    height: 25px;
+    background: #fff;
+    line-height: 25px;
+    color: #cdcdcd;
+    position: relative;
+    text-align: center;
+}
+
+.s-page11 ul li {
+    float: left;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+.s-page11-bb {
+    border: 1px solid #ddd;
+}
+.s-page11 ul li.s-page11-a i {
+    display: block;
+    width: 5px;
+    height: 9px;
+    background: url(../img/sear-lei.png) no-repeat;
+    background-position: 0px 0px;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+}
+.s-page11 ul li.s-selec01 a {
+    display: block;
+    width: 30px;
+    height: 25px;
+    border: 1px solid #e4393c;
+    color: #e4393c;
+    background: #fdf3f3;
+    line-height: 27px;
+    text-align: center;
+}
+.s-page11 ul li.s-page11-b i {
+    display: block;
+    width: 5px;
+    height: 9px;
+    background: url(../img/sear-lei.png) no-repeat;
+    background-position: -7px 0px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+.s-page11 ul li em {
+    color: #fb5053;
+    font-weight: bold;
+}
+.s-page11-c {
+    margin-right: 10px;
+    line-height: 24px;
+}
+.jumpto {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #333;
+}
+.btn-true {
+    display: block;
+    text-align: center;
+    padding: 0px 5px;
+    height: 24px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    line-height: 24px;
+}
+.s-sk {
+	margin: 0 auto;
+    width: 1200px;
+    height: 45px;
+    background: #f6f6f6;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.s-sk-a {
+    width: 540px;
+    margin: 0 auto;
+}
+.s-sk-a em {
+    font-size: 14px;
+    font-family: Microsoft YaHei,simhei;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.s-sk-a input {
+    width: 380px;
+    height: 25px;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.s-sk-a input.s-btn {
+    width: 80px;
+    height: 30px;
+    background: #e43b3d;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #e22728;
+}
+
+
+
+
+
+
+
+
+
+
+

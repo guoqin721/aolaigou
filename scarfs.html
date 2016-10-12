@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/scarfs.css" />
+		<script type="text/javascript" src="js/cookie.js"></script>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/scarfs.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#comtop').load('html/common.html #top', function() {
+					cookieCheak();
+					head_mygou();
+					fnsearch();
+					oSearch();
+					appShow();
+				});
+				$('#scarf_footer').load('html/common.html #bottom');
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="comtop"></div>
+		<div class="stop" id="divTopHot">
+
+			<div class="s-hotv3">
+				<div class="hotv3-lf">
+					<ul class="clearfix">
+						<li style="margin-top: 30px;">热</li>
+						<li>门</li>
+						<li>推</li>
+						<li>荐</li>
+					</ul>
+				</div>
+				<div class="hotv3-rt fl">
+					<ul class="clearfix muBamYQ01">
+		                <li>
+							<div class="hotv3-rtlia ">
+								<a href=" "><img width="130 " height="130 " src=""></a>
+							</div>
+							<div class="hotv3-rtlib ">
+								<div class="hotv3-rtlib-tit ">
+									<a href=" " target="_blank "></a>
+								</div>
+								<div class="hotv3-rtlib-val "></div>
+								<div class="hotv3-rtlib-btn ">
+									<a href=" " target="_blank ">立即抢购</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="hotv3-rtlia ">
+								<a href=" "><img width="130 " height="130 " src=""></a>
+							</div>
+							<div class="hotv3-rtlib ">
+								<div class="hotv3-rtlib-tit ">
+									<a href=" " target="_blank "></a>
+								</div>
+								<div class="hotv3-rtlib-val "></div>
+								<div class="hotv3-rtlib-btn ">
+									<a href=" " target="_blank ">立即抢购</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="hotv3-rtlia ">
+								<a href=" "><img width="130 " height="130 " src=""></a>
+							</div>
+							<div class="hotv3-rtlib ">
+								<div class="hotv3-rtlib-tit ">
+									<a href=" " target="_blank "></a>
+								</div>
+								<div class="hotv3-rtlib-val "></div>
+								<div class="hotv3-rtlib-btn ">
+									<a href=" " target="_blank ">立即抢购</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="hotv3-rtlia ">
+								<a href=" "><img width="130 " height="130 " src=""></a>
+							</div>
+							<div class="hotv3-rtlib ">
+								<div class="hotv3-rtlib-tit ">
+									<a href=" " target="_blank "></a>
+								</div>
+								<div class="hotv3-rtlib-val "></div>
+								<div class="hotv3-rtlib-btn ">
+									<a href=" " target="_blank ">立即抢购</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--列表内容-->
+		<div class="s">
+			<div class="sv3">
+				<div id="div_for_search_list" style="overflow: hidden;">
+					<div id="div_search_list">
+						<div class="s-lei">
+							<div class="s-lcon">
+								<div class="s-related">
+									<div class="shv3-t">
+										<i class="search-core"></i>
+										<span class="xuan-lei">
+						        		<a style="color:#fb5053;" href="">
+						        			<strong>全部结果&nbsp;〉&nbsp;(围巾/丝巾/披肩)</strong>	
+						        		</a>
+						        	</span>
+									</div>
+									<div class="shv3-l">
+										<div class="shv3-menu">
+											<div class="shv3-menu-a">
+												<a href="">所有类目</a><i class="search-core"></i>
+											</div>
+											<div class="shv3-is">〉</div>
+											<div class="shv3-lcon">
+												<ul class="clearfix">
+													<li>
+														<a href="">服饰配件</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="s-lei-p">
+									<div class="g-tit">品牌：</div>
+									<div class="g-tab">
+										<dl id="brandTagSelect" class="clearfix">
+											<dd class="g-tab01">所有品牌</dd>
+											<dd class="g-tab02" btag="a">A</dd>
+											<dd class="g-tab02" btag="b">B</dd>
+											<dd class="g-tab02" btag="e">E</dd>
+											<dd class="g-tab02" btag="g">G</dd>
+										</dl>
+									</div>
+									<dl id="brandTag" style="overflow:hidden;">
+										<dd class="s-p01" btag="g" id="brand_1418">
+											<a title="GUCCI&quot;" href="">GUCCI</a>
+										</dd>
+										<dd class="s-p01" btag="a" id="brand_1826">
+											<a title="ARMANI" href="">ARMANI JEANS</a>
+										</dd>
+										<dd class="s-p01 " btag="a " id="brand_1751 ">
+											<a title="ALEXANDER " href="">ALEXANDER McQUEEN</a>
+										</dd>
+										<dd class="s-p01" btag="e" id="brand_1427">
+											<a title="EMPORIO" " href=" ">EMPORIO ARMANI</a>
+									</dd>
+									<dd class="s-p01 " btag="b " id="brand_1414 ">
+										<a title="BURBERRY&quot; "  href=" ">BURBERRY</a>	
+									</dd>
+								</dl>
+								<div class="s-zjpp " style="display: block; ">
+									<span>更多</span> 
+									<span class="s-zjpp-01 ">+ 多选</span>
+								</div>
+							</div>
+							<div class="s-lei-p ">
+								<div class="g-tit ">价格：</div>
+								<dl>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-p01 "><a href=" ">0-50元</a></dd>
+									<dd class="s-jg "><input type="text " class="s-jgx01 " /></dd>
+									<dd class="s-jg ">-</dd>
+									<dd class="s-jg "><input type="text " class="s-jgx01 " /></dd>
+									<dd class="s-jg ">
+										<a href="javascript:void(0) " class="s-jgtj ">确定</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="s-lei-p ">
+								<div class="g-tit ">颜色：</div>
+								<dl>
+									<dd class="s-p01 ">
+										<a title="白色 "  href=" ">白色</a>
+									</dd>
+								</dl>
+								<div class="s-zjpp ">
+									<span>更多</span>
+									<span class="s-zjpp-01 ">+ 多选</span>
+								</div>
+							</div>
+							<div class="s-lei-p ">
+								<div class="g-tit ">材质：</div>
+								<dl>
+									<dd class="s-p01 ">
+										<a title="100%桑蚕丝 "  href=" ">白色</a>
+									</dd>
+								</dl>
+								<div class="s-zjpp ">
+									<span>更多</span>
+									<span class="s-zjpp-01 ">+ 多选</span>
+								</div>
+							</div>
+						</div>
+						<!--隐藏的筛选-->
+						<div class="s-mtt " id="sea-top " style="display: none; ">
+							<span>
+								<em>更多筛选条件</em>
+							</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--左边的li-->
+		<div class="left ">
+			<div class="sea-left ">
+				<div class="sea-left-1 ">
+					<div class="sea-left-t1 ">
+                   		 热门销售
+                		<em>HOT</em>
+                    	<span class="pt-hot search-core "></span>
+                	</div>
+                	<div class="sea-left-con ">
+                		<ul>
+                			<li>
+                				<ul class="hot_sc">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" "></a></li>
+                					<li class="left-conli-val "></li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_sc">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" "></a></li>
+                					<li class="left-conli-val "></li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_sc">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" "></a></li>
+                					<li class="left-conli-val "></li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_sc">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" "></a></li>
+                					<li class="left-conli-val "></li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_sc">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" "></a></li>
+                					<li class="left-conli-val "></li>
+                				</ul>
+                			</li>
+                		</ul>
+                	</div>
+				</div>
+				<div class="sea-left-1 " style="margin-top: 15px; ">
+					<div class="sea-left-t1 ">
+                   		 新上商品
+                		<em>NEWS</em>
+                    	<span class="pt-news search-core "></span>
+                	</div>
+                	<div class="sea-left-con ">
+                		<ul>
+                			<li>
+                				<ul class="hot_news">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" ">ALEXANDER McQUEEN  亚历山大麦昆女款桑蚕丝围巾358938 3010Q 1260</a></li>
+                					<li class="left-conli-val ">¥2800</li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_news">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" ">ALEXANDER McQUEEN  亚历山大麦昆女款桑蚕丝围巾358938 3010Q 1260</a></li>
+                					<li class="left-conli-val ">¥2800</li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_news">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" ">ALEXANDER McQUEEN  亚历山大麦昆女款桑蚕丝围巾358938 3010Q 1260</a></li>
+                					<li class="left-conli-val ">¥2800</li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_news">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" ">ALEXANDER McQUEEN  亚历山大麦昆女款桑蚕丝围巾358938 3010Q 1260</a></li>
+                					<li class="left-conli-val ">¥2800</li>
+                				</ul>
+                			</li>
+                			<li>
+                				<ul class="hot_news">
+                					<li class="left-conli-tu">
+                						<a href=" "><img src=" " alt=" " /></a>
+                					</li>
+                					<li class="left-conli-txt "><a href=" ">ALEXANDER McQUEEN  亚历山大麦昆女款桑蚕丝围巾358938 3010Q 1260</a></li>
+                					<li class="left-conli-val ">¥2800</li>
+                				</ul>
+                			</li>
+                		</ul>
+                	</div>
+					
+				</div>
+			</div>
+		</div>
+		<div id="div_for_search_result " class="fr right ">
+			<div id="div_search_result ">
+				<div class="fore1 ">
+					<dl>
+						
+						<dd class="fore1-up "><a href="">综合排序</a></dd>
+						<dd class="fore1-moren "><a href=" ">销量</a></dd>
+						<dd class="fore1-moren "><a href=" ">价格</a></dd>
+						<dd class="fore1-moren "><a href=" ">折扣</a></dd>
+						<dd class="fore1-moren "><a href=" ">上架时间</a></dd>
+						<dd class="s-goods-on "><a href=" ">仅显示有货</a></dd>
+						<dd class="s-goods "><a href=" ">仅显示自营</a></dd>
+						<dd class="s-goods "><a href=" ">海外购</a></dd>
+						<dd class="s-goods "><a href=" ">促销优惠</a></dd>
+						
+					</dl>
+					<div class="s-page11 ">
+						<ul>
+					        <li style="line-height:30px; ">共<em>22</em>个商品</li>
+							<li style="line-height:30px; "><em>1</em>/1</li>
+					        <li class="s-page11-a s-page11-bb "><i></i>上一页</li>
+					        <li class="s-page11-b s-page11-bb ">下一页<i></i></li>
+					     </ul>
+					</div>
+				</div>
+				<div class="pro " style="overflow: hidden; ">
+					<ul class="muBanYQ02">
+
+					</ul>
+				</div>
+				<div class="s-page11">
+					<ul class="clearfix">
+		                <li class="s-page11-a s-page11-bb">
+		                	<i></i>上一页
+		                </li>
+		                <li class="s-selec01">
+		                	<a href="#">1</a>
+		                </li>
+		                <li class="s-page11-b s-page11-bb">下一页
+		                	<i></i>
+		                </li>
+					    <li class="s-page11-c">共<em>1</em>页&nbsp;</li>
+					    <li class="s-page11-c">
+					    	到第
+					    	<input id="txtPageInput" type="text" value="1" class="jumpto">页&nbsp;
+					    </li>
+					    <li><a id="btnPageSubmit" class="btn-true" href="#">确定</a></li>
+				     </ul>
+				</div>
+			</div>
+		</div>		
+	</div>
+	
+<div class="s-sk" id="reSearch">
+    <div class="s-sk-a">
+          <em>重新搜索</em><input value ='请输入商品名称...'class="" name="" id="rskey" type="text">
+        <input name="btn-login"  class="s-btn" value="搜 索"  type="submit">
+    </div>
+ 
+ </div>
+ <div id="scarf_footer" style="margin-top: 30px;">
+ 	
+ </div>
+		<script type="text/x-handlebars-template " id="muBanYQ02">
+			{{#each goodslist2}}
+				<li>
+					<div class="sh-sport sh-icon vsport4 "></div>
+					<div class="p1 " id="pro-z ">
+						<dl>
+							<dd style="display: none; ">
+								<a href=" " ><img src="{{this.dali1}}" ></a>
+							</dd>
+							<dd style="display: block; ">
+								<a href=" "><img src="{{this.dali2}}" ></a>
+							</dd>
+						</dl>
+					</div>
+					<div class="p2 " id="xt ">
+						<div class="src-div-thumbnail ">
+							<dl class="src-dl-thumbnail ">
+								<dd class=" "><img src="{{this.xiaoli1}}"></dd>
+								<dd class="b-select "><img src="{{this.xiaoli2}}"></dd>
+							</dl>
+						</div>
+					</div>
+					<div style="clear: both "></div>
+					<div class="p4 ">
+						<div class="valc-n " >
+							<span>
+								<a" href="javascript:; ">收藏</a>
+							</span>
+							<span class="p4-jg02 ">{{this.price}}</span>
+							<del class="delcon ">{{this.price_s}}</del>
+						</div>
+					</div>
+					<div class="p3 ">
+						<a target="_blank " href=" "">
+							<span class="pt-zy ser-bg "></span>{{this.name}}
+						</a>
+					</div>
+				</li>
+			{{/each}}
+		</script>
+		<script type="text/javascript " src="js/handlebars.min.js "></script>
+	</body>
+</html>
